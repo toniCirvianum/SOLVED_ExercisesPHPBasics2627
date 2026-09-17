@@ -1,0 +1,9 @@
+ services:
+  php:
+    image: php:8.3-apache-bullseye
+    volumes:
+      - .:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
+    ports:
+      - 8085:80
+      
