@@ -87,7 +87,7 @@ $students = [
     </p>
 <?php endforeach; ?>
 
-<p><a href="../index.php">Back to exercises</a></p>
+<p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

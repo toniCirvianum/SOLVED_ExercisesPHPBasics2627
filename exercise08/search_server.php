@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] != "GET") {
 </head>
 <body>
 
-<h1>Search information</h1>
+<h1>Informació de cerca:</h1>
 
 <?php if (isset($_GET["name"])): ?>
     <p>Product: <?= $_GET["name"] ?></p>
@@ -25,12 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] != "GET") {
     <p>Minimum rating: <?= $_GET["rating"] ?></p>
 <?php endif; ?>
 
-<h2>Complete GET array</h2>
+<h2>Mostrant $_GET com un array</h2>
 
 <pre><?php print_r($_GET); ?></pre>
 
-<p><a href="search.php">Back to search</a></p>
-<p><a href="../index.php">Back to exercises</a></p>
+<p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

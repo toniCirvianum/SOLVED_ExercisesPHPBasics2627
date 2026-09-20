@@ -1,6 +1,6 @@
 <?php
 $name = "Toni";
-$course = "Web Development";
+$course = "2n DAW";
 $year = 2026;
 ?>
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ echo "<hr>";
 <p>Course: <?= $course ?></p>
 <p>Year: <?= $year ?></p>
 
-<p><a href="../index.php">Back to exercises</a></p>
+<p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

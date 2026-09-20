@@ -14,13 +14,13 @@ include("products.php");
 
 <h2>1. All products</h2>
 
-<?php foreach ($products as $product): ?>
+<?php foreach ($products as $product) {?>
     <h3><?= $product["name"] ?></h3>
     <p><?= $product["description"] ?></p>
     <p>Price: <?= $product["price"] ?> €</p>
     <p>Rating: <?= $product["rating"] ?>/10</p>
     <hr>
-<?php endforeach; ?>
+<?php } ?>
 
 <h2>2. Products with rating higher than 7</h2>
 
@@ -50,7 +50,7 @@ include("products.php");
 
 <p><?= count($products) ?></p>
 
-<p><a href="../index.php">Back to exercises</a></p>
+<p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

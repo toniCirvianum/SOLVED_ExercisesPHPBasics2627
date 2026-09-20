@@ -17,11 +17,11 @@ session_start();
     <p>Email: <?= $_SESSION["user"]["email"] ?></p>
     <p><a href="logout.php">Logout</a></p>
 <?php else: ?>
-    <p>No user session found.</p>
-    <p><a href="session_create.php">Create session</a></p>
+    <p>No existeix $_SESSION['user']</p>
 <?php endif; ?>
 
-<p><a href="../index.php">Back to exercises</a></p>
+
+    <p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

@@ -27,7 +27,7 @@
     <button type="submit">Search</button>
 </form>
 
-<p><a href="../index.php">Back to exercises</a></p>
+<p><a href="../index.php">Enrere</a></p>
 
 </body>
 </html>

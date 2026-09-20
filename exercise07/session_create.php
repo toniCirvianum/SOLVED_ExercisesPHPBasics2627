@@ -9,16 +9,19 @@ $_SESSION["user"] = [
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Create session</title>
+    <title>Session</title>
 </head>
+
 <body>
 
-<h1>Session created</h1>
+    <h1>$_SESSION['user'] creada</h1>
 
-<p><a href="session_show.php">Show session information</a></p>
-<p><a href="../index.php">Back to exercises</a></p>
+    <p><a href="session_show.php">Mostrar contungut</a></p>
+    <p><a href="../index.php">Enrere</a></p>
 
 </body>
+
 </html>
