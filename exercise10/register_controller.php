@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     $regexPassword = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}$/';
-    if (!preg_match($regexUSername, $username)) {
+    if (!preg_match($regexPassword, $username)) {
         header('Location: ./register.php?error=3');
         exit;
     }
